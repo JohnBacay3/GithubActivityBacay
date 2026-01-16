@@ -55,6 +55,12 @@ h6 {
     position: relative;
 }
 
+.shop-container:active, .shop-container:hover {
+    background-color: rgba(73, 163, 253, 0.492);
+    height: 410px;
+    width: 300px;
+}
+
 .shop-container-inside {
     background-color: rgba(82, 95, 107, 0.492);
     height: 270px;
@@ -63,6 +69,7 @@ h6 {
     padding: 5px;
     margin: auto;
 }
+
 
 #item1 {
     content: url("item1.png");
@@ -114,6 +121,10 @@ h5 {
     background-color: rgb(32, 136, 248);
     font-size: 25px;
 }
+
+.shop-cart:hover, .shop-cart:active {
+    background-color: rgb(100, 175, 255);
+}
     
 s {
     color: rgba(244, 40, 40, 0.54);
@@ -157,13 +168,16 @@ s {
     border-radius: 12px;
 }
 
-li:focus {
+a:active, a:hover, .navbtn:active, .navbtn:hover {
     background-color: aqua;
     width: 10%;
-}
-
-li:active {
-    background-color: aqua;
-    width: 10%;
+    height: 20%;
+    background-color: rgb(0, 183, 255);
+    font-family: "Afacad", sans-serif;
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 20px;
+    border-radius: 12px;
 }
 
