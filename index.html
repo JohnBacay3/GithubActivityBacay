@@ -22,11 +22,12 @@
         <div class="header">
             <h1>ShopPCX<span class="material-symbols-outlined" style="font-size: 57px;">computer_sound</span></h1>
             <ul class="navbar">
-                <li class="navbtn" href="/"><a>Home</a></li>
-                <li class="navbtn" href="/"><a>Carts</a></li>
-                <li class="navbtn" href="/"><a>My Account</a></li>
+                <li class="navbtn" href="/" onclick="window.location =`/`">Home</li>
+                <li class="navbtn" onclick="window.location =`/404.html`">Carts</li>
+                <li class="navbtn" onclick="window.location =`/404.html`">Voucher</li>
             </ul>
         </div>
+        <br>
         
         <div class="main-container">
             <br><br><br>
@@ -34,60 +35,67 @@
                 <div class="shop-container-inside" id="item1"></div>
                 <div class="item-label">
                 <h5 class="item-name"><b>ASUS RTX 5050</b>&nbsp;&nbsp; <s>₱17,599</s> <b>₱19,899</b></h5>
-                <button class="shop-cart">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
+                <button class="shop-cart" onclick="addedcart()">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
                 </div>
             </div>
             <div class="shop-container">
                 <div class="shop-container-inside" id="item2"></div>
                 <div class="item-label">
                 <h5 class="item-name"><b>AMD Ryzen 5 9500F</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>₱13,399</b></h5>
-                <button class="shop-cart">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
+                <button class="shop-cart"onclick="addedcart()" >Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
                 </div>
             </div>            
             <div class="shop-container">
                 <div class="shop-container-inside" id="item3"></div>
                 <div class="item-label">
                 <h5 class="item-name"><b>MSI RTX 5060</b>&nbsp;&nbsp;&nbsp; <s>₱23,299</s> <b>₱25,799</b></h5>
-                <button class="shop-cart">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
+                <button class="shop-cart" onclick="addedcart()">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
                 </div>
             </div>            
             <div class="shop-container">
                 <div class="shop-container-inside" id="item4"></div>
                 <div class="item-label">
                 <h5 class="item-name"><b>MSI RTX 5080</b>&nbsp;&nbsp;&nbsp; <s>₱88,999</s> <b>₱87,199</b></h5>
-                <button class="shop-cart">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
+                <button class="shop-cart" onclick="addedcart()">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
                 </div>
             </div><br><br><br>
             <div class="shop-container">
                 <div class="shop-container-inside" id="item5"></div>
                 <div class="item-label">
                 <h5 class="item-name"><b>AMD Ryzen 5 9600X</b> &nbsp;&nbsp;&nbsp;&nbsp; <b>₱14,399</b></h5>
-                <button class="shop-cart">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
+                <button class="shop-cart" onclick="addedcart()">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
                 </div>
             </div>
             <div class="shop-container">
                 <div class="shop-container-inside" id="item6"></div>
                 <div class="item-label">
                 <h5 class="item-name"><b>AMD Ryzen 7 9700X</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>₱20,199</b></h5>
-                <button class="shop-cart">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
+                <button class="shop-cart" onclick="addedcart()">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
                 </div>
             </div>            
             <div class="shop-container">
                 <div class="shop-container-inside" id="item7"></div>
                 <div class="item-label">
                 <h5 class="item-name"><b>AMD Ryzen 7 9800X3D</b> <s>₱31,299</s> <b>₱32,299</b></h5>
-                <button class="shop-cart">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
+                <button class="shop-cart" onclick="addedcart()">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
                 </div>
             </div>            
             <div class="shop-container">
                 <div class="shop-container-inside" id="item8"></div>
                 <div class="item-label">
                 <h5 class="item-name"><b>MSI RTX 5090</b>&nbsp;&nbsp;&nbsp; <s>₱279,899</s> <b>₱173,499</b></h5>
-                <button class="shop-cart">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
+                <button class="shop-cart" onclick="addedcart()">Add To Cart <span class="material-symbols-outlined" style="font-size: 17px;">add_shopping_cart</span></button>
                 </div>
             </div>            
          
             </div>
         </div>
+
+        <script>
+            function addedcart() {
+                window.alert("Successfully added to cart!");
+            };
+
+        </script>
     </body>
 </html>

@@ -50,7 +50,7 @@ h6 {
     width: 300px;
     border-radius: 20px;
     padding: 5px;
-    display:inline-block;
+    display: inline-block;
     margin-right: 20px;
     position: relative;
 }
@@ -70,6 +70,9 @@ h6 {
     margin: auto;
 }
 
+.a404 {
+    text-align: center;
+}
 
 #item1 {
     content: url("item1.png");
@@ -153,7 +156,7 @@ s {
     padding: 0;
     margin: auto;
     margin-left: 2%;
-    margin-top: -5px;
+    margin-top: -50px;
 }
 
 .navbtn {
@@ -181,3 +184,13 @@ a:active, a:hover, .navbtn:active, .navbtn:hover {
     border-radius: 12px;
 }
 
+.container404 {
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+button {
+    border: 0;
+}
